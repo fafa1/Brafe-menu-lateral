@@ -88,6 +88,8 @@ body {
   clear: both;
 }
 
+/* filtro */
+
 .filtro {
   float: left;
   width: 300px;
@@ -96,6 +98,26 @@ body {
   margin: 0 10px;
   padding: 20px;
 }
+
+/* calculo para setar o componentes(container) 720/12(colunas)*4(coluna ocupada pelo filtro)-20(guuter) */
+@media (min-width: 740px) and (max-width: 980px) {
+  .container {
+    max-width: 720px;
+  }
+  .filtro {
+    width: 220px;
+  }
+}
+
+@media (max-width: 739px) {
+  .container {
+    max-width: 300px;
+  }
+  .filtro {
+    display: none;
+  }
+}
+
 
 .filtro h2 {
   font-size: 1.125em;
@@ -202,6 +224,20 @@ body {
   font-size: 0.875em;
   font-weight: normal;
   font-style: italic;
+}
+
+@media (min-width: 740px) and (max-width: 980px) {
+  .produtos {
+    width: 460px;
+  }
+  .produtos li {
+    width: 220px;
+  }
+
+}
+
+@media (max-width: 739px) {
+
 }
 
 .footer {
