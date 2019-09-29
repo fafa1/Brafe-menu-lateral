@@ -1,0 +1,76 @@
+
+body, p, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: Georgia, serif;
+  color: #252525;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* menu */
+
+.header-informacoes {
+  font-size: 0,875em;
+  padding: 5px 0;
+  background: #d6d3c8;
+  text-align: center;
+}
+
+.header-logo img {
+  display: block;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.header-menu {
+  text-align: center;
+  border-top: 3px solid #d6d3c8;
+  border-bottom: 3px solid #d6d3c8;
+  padding: 15px;
+  margin-bottom: 60px
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header-menu li a {
+  text-decoration: none;
+  color: #252525;
+  padding: 5px;
+  font-size: 1.125em
+}
+
+.header-menu ul li span {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #252525;
+  border-radius: 20px;
+  position: relative;
+  top: 15px;
+  right: 10px;
+}
+
+/* para tirar a bolinha do primeiro a 
+.header-menu li:first-child a::before {
+  display: none;
+}
+*/
+
+/* coloca antes do a 
+.header-menu li a::before {
+  content: ''
+}
+*/
