@@ -237,7 +237,13 @@ body {
 }
 
 @media (max-width: 739px) {
+  .produtos {
+    width: 300px;
+  }
 
+  .produtos li {
+    width: 140px;
+  }
 }
 
 .footer {
