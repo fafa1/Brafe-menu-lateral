@@ -65,11 +65,21 @@ body {
 	background: #e7e4d8;
 	border: 3px solid #d6d3c8;
 	padding: 20px;
+	align-self: flex-start
 }
 
+@media (max-width:768px) {
+	.filtro {
+		display: none;
+	}
+	.produtos h1 {
+		text-align: center;
+	}
+}
 .filtro h2 {
 	font-size: 1.125em;
-	padding: 10px 0
+	font-weight: bold;
+	padding: 10px 0;
 }
 
 .filtro ul {
